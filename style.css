@@ -1,0 +1,129 @@
+body{
+	font-family: 'Archivo', sans-serif;
+	display: grid;
+	grid-template-rows: 90px 410px 340px 140px 60px 220px auto 60px;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.container button{
+	font-size: 30px;
+	cursor: pointer;
+}
+header img{
+	margin-top: 20px;
+	margin-left: 25px;
+}
+nav{
+	width: 950px;
+	background-color: #222931;
+	height: 50px;
+	position: relative;
+	margin: 20px auto 0 auto;
+}
+.banner{
+	background-image: url(img/header.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.articles .container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 25px;
+	grid-template-rows: 220px;
+	padding: 60px 0;
+	width: 950px;
+}
+.item1{
+	background-image: url(img/banner-1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.item2{
+	background-image: url(img/banner-2.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.item3{
+	background-image: url(img/banner-3.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.ribbon{
+	background-color: #ffe718;
+}
+.buttons{
+	background-image: url(img/footer.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.buttons .container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 26px;
+	grid-template-rows: 100px;
+	padding: 170px 0 60px 0;
+	width: 950px;
+}
+.button1{
+	background-color: #ffe718;
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	border: none;
+}
+.button2{
+	background-color: #ffe718;
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	border: none;
+}
+.button3{
+	background-color: #ffe718;
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	border: none;
+}
+.content .container{
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 210px;
+	grid-template-rows: 230px;
+	margin: 120px auto 30px auto;
+	width: 950px;
+}
+#overonsTekst{
+	font-size: 12px;
+	font-weight: 400;
+}
+#contactTekst{
+	list-style: none;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+}
+#contactTekst li i{
+	font-size: 25px;
+}
+h2{
+	font-size: 24px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	font-weight: 600;
+}
+h1{
+	font-size: 24px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	font-weight: 600;
+}
+footer{
+	background-color: #222931;
+	position: relative;
+	top: 100px;
+}
